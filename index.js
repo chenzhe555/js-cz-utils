@@ -1,9 +1,14 @@
 'use strict';
 
-const test = (testStr = '123') => {
-    console.log('cccccc' + testStr + 'zzzzzzzz');
+function DateUtil() {
+
 }
 
-export default {
-    test
+DateUtil.prototype.test = function (testStr = '123') {
+    console.log('1111kmskddnscccccc' + testStr + 'zzzzzzzz');
+}
+
+
+module.exports = {
+    DateUtil: DateUtil
 }
