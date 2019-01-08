@@ -1,6 +1,6 @@
 {
   "name": "js-cz-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "js-utils",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "js",
-    "utils"
+    "utils",
+    "util",
+    "cz"
   ],
   "author": "陈哲是个好孩子",
   "license": "MIT",
