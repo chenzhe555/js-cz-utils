@@ -1,0 +1,23 @@
+{
+  "name": "js-cz-utils",
+  "version": "1.0.0",
+  "description": "js-utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhe555/js-cz-utils.git"
+  },
+  "keywords": [
+    "js",
+    "utils"
+  ],
+  "author": "陈哲是个好孩子",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenzhe555/js-cz-utils/issues"
+  },
+  "homepage": "https://github.com/chenzhe555/js-cz-utils#readme"
+}
