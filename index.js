@@ -31,7 +31,45 @@ const DateUtil = {
                 (obj[key]) : (("00" + obj[key]).substr(("" + obj[key]).length)));
         }
         return formater;
+    },
+
+    /*
+    * 将时间差值转为 文本信息
+    * timeInteval 时间差(秒)
+    * */
+    formateTimestampToText(timeInteval) {
+        if (timeInteval <=0 ) return [0,0,0,0];
+        //天数
+        let days = Math.floor(timeInteval/(24*3600));
+        if (days > 0) {
+            timeInteval = timeInteval - days*24*3600;
+        }
+        //小时
+        let hours = Math.floor(timeInteval/3600)
+        if (hours > 0) {
+            timeInteval = timeInteval - hours*3600
+        }
+        //分钟
+        let minutes = Math.floor(timeInteval/60)
+        if (minutes > 0) {
+            timeInteval = timeInteval - minutes*60;
+        }
+        //秒数
+        return [days,hours,minutes,timeInteval];
+    },
+
+    /*获取某年某月总天数*/
+    getMonthDayTime(year, month) {
+        return (new Date(year,month,0)).getDate();
+    },
+
+    /*
+    * 获取某天是星期几(0是星期天)
+    * */
+    getToadyWeek(year, month, day) {
+        return (new Date(year, parseInt(month) - 1, day)).getDay();
     }
+
 }
 
 module.exports = {
