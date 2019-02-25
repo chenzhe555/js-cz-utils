@@ -1,3 +1,7 @@
+/*
+* deleteAllSpace: 删除文本中所有的空格
+* deletePreAndSufSpace: 删除文本中前后的空格
+* */
 export const TextUtil = {
     /*
     * 删除文本中所有的空格

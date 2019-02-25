@@ -1,3 +1,8 @@
+/*
+* checkPhoneFormat: 校验手机格式
+* checkEmailFormat: 校验邮箱格式
+* checkCardNo: 校验身份证号
+* */
 export const VerifyUtil = {
     /*
     * 校验手机格式

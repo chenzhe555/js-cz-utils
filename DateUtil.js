@@ -1,3 +1,9 @@
+/*
+* formatDate: 时间戳转时间字符串
+* formateTimestampToText: 将时间差值转为 文本信息
+* getMonthDayTime: 获取某年某月总天数
+* getToadyWeek: 获取某天是星期几(0是星期天)
+* */
 export const DateUtil = {
     /*
     * 时间戳转时间字符串
@@ -56,7 +62,9 @@ export const DateUtil = {
         return [days,hours,minutes,timeInteval];
     },
 
-    /*获取某年某月总天数*/
+    /*
+    * 获取某年某月总天数
+    * */
     getMonthDayTime(year, month) {
         return (new Date(year,month,0)).getDate();
     },
