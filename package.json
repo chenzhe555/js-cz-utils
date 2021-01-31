@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/chenzhe555/js-cz-utils/issues"
   },
-  "homepage": "https://github.com/chenzhe555/js-cz-utils#readme"
+  "homepage": "https://github.com/chenzhe555/js-cz-utils#readme",
+  "type": "module"
 }
